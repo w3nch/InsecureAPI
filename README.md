@@ -67,7 +67,7 @@ cd InsecureAPI
 
 2. Install dependencies using Bun:
 ```shell
-bun run start
+bun install
 ```
 
 3. Configure environment variables:
@@ -79,7 +79,7 @@ Edit `.env` with your DB credentials and weak JWT secret (for learning purposes)
 
 4. Seed dummy data (if you have a seed script):
 ```shell
-bun run seed
+bun run start
 ```
 
 5. Start the API:
